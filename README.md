@@ -22,10 +22,10 @@ sound_data, samplerate = librosa.load(file_name)  # sr=None keeps the original s
 display.display(display.Audio(data=sound_data, rate=samplerate))
 ```
 
-1. Using this documentation: https://docs.scipy.org/doc/scipy/tutorial/fft.html find out how to convert the sound file into the frequency domain, implement this on your data. Plot it in the frequency domain.
+2. Using this documentation: https://docs.scipy.org/doc/scipy/tutorial/fft.html find out how to convert the sound file into the frequency domain, implement this on your data. Plot it in the frequency domain.
 
-1. What can you learn from this plot? Analyze it.
+2. What can you learn from this plot? Analyze it.
 
-1. Repeat the exercise with a different sound, compare the two different frequency domain plots.
+2. Repeat the exercise with a different sound, compare the two different frequency domain plots.
 
-1. Extra challenge, instead of relying on the Fast Fourier Transform, can you implement your own Discrete Fourier Transform?
+2. Extra challenge, instead of relying on the Fast Fourier Transform, can you implement your own Discrete Fourier Transform?
